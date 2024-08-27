@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:56px;
+    background-color:#2874f0;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 80px;
+    margin-left: 100px;
+}
+
+.logo{
+    background-image: url("fk-logo.png");
+    background-size:cover;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white ;
+}
+/** box2**/
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 0.90rem;
+    border: none;
+    margin-left: 10px;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    color: #2874f0;
+}
+.nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width: 100px;
+    background-color: white;
+    color: #2874f0;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    
+}
+
+.more-select{
+    background-color: #2874f0;
+    color: white;
+    width: 60px;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/**cart**/
+.nav-cart i {
+    font-size: 20px;
+}
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 100px;
+}
+/**objects**/
+.obj{
+    height: 112px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box-content{
+    font-size: 1rem; 
+    margin-top: 20px;
+}
+.box-content p{
+    margin-top: 10px;
+}
+.box-select{
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    
+}
+.box-img{
+    height:60px;
+    background-size: cover;
+}
+.box1{
+    margin-left: 80px;
+}
+.box9{
+    margin-right: 80px;
+}
+.box{
+    color: black;
+    
+}
+.box:hover{
+    color: #2874f0;
+}
+p{
+    text-align: center;
+ }
+
+.slider{
+    background-color: beige;
+    height: 200px;
+}
+.electronics{
+    background-color: aliceblue;
+    height: 200px;
+}
+.beauty{
+    background-color: bisque;
+    height: 200px;
+}
+
+ .foot1{
+    background-color: white;
+    height: 1100px;
+    font-size: 0.85rem;
+    color: rgb(147, 147, 147);
+ }
+ .foot2{
+    background-color: blue;
+    height: 500px;
+ }
+.foot3{
+    background-color: blueviolet;
+    height: 200px;
+}
